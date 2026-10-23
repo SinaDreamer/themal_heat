@@ -1,0 +1,96 @@
+[PASS] steady energy balance, variant a
+        (out - in)/in = -1.9e-12  [Q_top 2.318 + Q_ends 0.266 + Q_fins 0.445 + Q_body 0.471 W = 3.50 W]
+[PASS] steady energy balance, variant b
+        (out - in)/in = +2.5e-12  [Q_top 2.419 + Q_ends 0.253 + Q_fins 0.449 + Q_body 0.379 W = 3.50 W]
+[PASS] steady energy balance, variant c
+        (out - in)/in = -4.3e-13  [Q_top 2.429 + Q_ends 0.255 + Q_fins 0.450 + Q_body 0.366 W = 3.50 W]
+[PASS] steady energy balance, variant d
+        (out - in)/in = -2.9e-12  [Q_top 2.394 + Q_ends 0.260 + Q_fins 0.449 + Q_body 0.397 W = 3.50 W]
+[PASS] steady energy balance, variant e
+        (out - in)/in = -2.6e-12  [Q_top 2.533 + Q_ends 0.244 + Q_fins 0.393 + Q_body 0.330 W = 3.50 W]
+[PASS] steady energy balance, variant f
+        (out - in)/in = -3.8e-12  [Q_top 2.434 + Q_ends 0.254 + Q_fins 0.450 + Q_body 0.362 W = 3.50 W]
+[PASS] transient energy balance, variant a
+        (generated - stored - lost)/generated = +2.0e-11
+[PASS] transient reaches steady state, variant a
+        after 3 h: junction off by +0.040 K, surface by +0.047 K
+[PASS] transient energy balance, variant f
+        (generated - stored - lost)/generated = +1.2e-11
+[PASS] transient reaches steady state, variant f
+        after 3 h: junction off by +0.031 K, surface by +0.034 K
+[PASS] grid convergence, junction: finest two meshes agree
+        values 59.674, 59.450, 59.335, 59.290 C on 3660, 13920, 55200, 219840 cells
+[PASS] grid convergence, junction: default-mesh error
+        default mesh 59.450 C vs Richardson extrapolation 59.261 C (error +0.189 K, observed order 1.34)
+[PASS] grid convergence, peak surface: finest two meshes agree
+        values 55.359, 55.166, 55.063, 55.022 C on 3660, 13920, 55200, 219840 cells
+[PASS] grid convergence, peak surface: default-mesh error
+        default mesh 55.166 C vs Richardson extrapolation 54.994 C (error +0.172 K, observed order 1.32)
+[PASS] 1D network vs 2D, variant a
+        network/2D: junction 61.9/59.2 (+8%), top surface 42.9/43.3 (-2%), PCB 54.0/52.3 (+6%), skin-side surface 38.5/38.4 (+1%)
+[PASS] 1D network vs 2D, variant b
+        network/2D: junction 52.2/52.8 (-2%), top surface 44.0/44.0 (+0%), PCB 48.9/49.4 (-2%), skin-side surface 37.9/38.1 (-1%)
+[PASS] 1D network vs 2D, variant c
+        network/2D: junction 53.4/53.6 (-1%), top surface 44.0/44.1 (-0%), PCB 49.6/49.8 (-1%), skin-side surface 37.9/38.1 (-1%)
+[PASS] 1D network vs 2D, variant d
+        network/2D: junction 60.6/58.2 (+7%), top surface 43.4/43.8 (-2%), PCB 52.6/51.3 (+5%), skin-side surface 38.2/38.2 (+0%)
+[PASS] 1D network vs 2D, variant e
+        network/2D: junction 59.1/55.4 (+12%), top surface 40.0/40.0 (-0%), PCB 51.4/49.1 (+9%), skin-side surface 38.2/38.0 (+1%)
+[PASS] 1D network vs 2D, variant f
+        network/2D: junction 52.6/53.1 (-2%), top surface 44.1/44.1 (+0%), PCB 49.2/49.6 (-2%), skin-side surface 37.9/38.1 (-1%)
+[PASS] maximum principle, variant a
+        min 33.04 C >= 25 C, hottest cell is in the die (59.45 C)
+[PASS] temperature ordering, variant a
+        Tj 59.4 > PCB 52.3 > skin side 38.4; Tj > surface peak 55.2 > ambient
+[PASS] natural-convection correlation in range, variant a
+        top Ra = 2.06e+04 (Lloyd-Moran valid 1e4-1e7), h_conv = 7.23 W/m2K
+[PASS] bracket integral vs hand calc, variant a
+        dL 39.77 vs 39.77 um; rotation 3.671 vs 3.686 urad
+[PASS] maximum principle, variant b
+        min 32.57 C >= 25 C, hottest cell is in the die (52.90 C)
+[PASS] temperature ordering, variant b
+        Tj 52.9 > PCB 49.4 > skin side 38.1; Tj > surface peak 46.2 > ambient
+[PASS] natural-convection correlation in range, variant b
+        top Ra = 2.13e+04 (Lloyd-Moran valid 1e4-1e7), h_conv = 7.30 W/m2K
+[PASS] bracket integral vs hand calc, variant b
+        dL 34.83 vs 34.84 um; rotation 3.097 vs 3.110 urad
+[PASS] maximum principle, variant c
+        min 32.87 C >= 25 C, hottest cell is in the die (53.76 C)
+[PASS] temperature ordering, variant c
+        Tj 53.8 > PCB 49.8 > skin side 38.1; Tj > surface peak 47.3 > ambient
+[PASS] natural-convection correlation in range, variant c
+        top Ra = 2.13e+04 (Lloyd-Moran valid 1e4-1e7), h_conv = 7.31 W/m2K
+[PASS] bracket integral vs hand calc, variant c
+        dL 35.53 vs 35.53 um; rotation 3.064 vs 3.076 urad
+[PASS] maximum principle, variant d
+        min 32.88 C >= 25 C, hottest cell is in the die (58.41 C)
+[PASS] temperature ordering, variant d
+        Tj 58.4 > PCB 51.3 > skin side 38.2; Tj > surface peak 55.0 > ambient
+[PASS] natural-convection correlation in range, variant d
+        top Ra = 2.11e+04 (Lloyd-Moran valid 1e4-1e7), h_conv = 7.28 W/m2K
+[PASS] bracket integral vs hand calc, variant d
+        dL 38.33 vs 38.33 um; rotation 3.324 vs 3.338 urad
+[PASS] maximum principle, variant e
+        min 32.25 C >= 25 C, hottest cell is in the die (55.66 C)
+[PASS] temperature ordering, variant e
+        Tj 55.7 > PCB 49.1 > skin side 38.0; Tj > surface peak 49.8 > ambient
+[PASS] natural-convection correlation in range, variant e
+        top Ra = 1.73e+04 (Lloyd-Moran valid 1e4-1e7), h_conv = 6.90 W/m2K
+[PASS] bracket integral vs hand calc, variant e
+        dL 35.17 vs 35.17 um; rotation 2.976 vs 2.989 urad
+[PASS] maximum principle, variant f
+        min 32.80 C >= 25 C, hottest cell is in the die (53.17 C)
+[PASS] temperature ordering, variant f
+        Tj 53.2 > PCB 49.6 > skin side 38.1; Tj > surface peak 46.5 > ambient
+[PASS] natural-convection correlation in range, variant f
+        top Ra = 2.14e+04 (Lloyd-Moran valid 1e4-1e7), h_conv = 7.31 W/m2K
+[PASS] bracket integral vs hand calc, variant f
+        dL 35.09 vs 35.09 um; rotation 3.030 vs 3.043 urad
+[PASS] monotonic spreader sweep, copper C110
+        junction 59.45 -> 52.47 C, surface 55.17 -> 45.67 C
+[PASS] monotonic spreader sweep, pyrolytic graphite sheet
+        junction 59.45 -> 52.38 C, surface 55.17 -> 45.48 C
+[PASS] zero-power test
+        T in [26.99, 35.64] C, body supplies 0.556 W which leaves through air faces (0.556 W)
+
+47/47 checks passed.

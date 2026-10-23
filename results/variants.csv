@@ -1,0 +1,7 @@
+key,variant,T_junction_C,T_surface_peak_C,T_top_peak_C,T_skin_peak_C,bracket_dT_K,bracket_growth_um,bracket_rotation_urad,sustainable_power_W,added_mass_g,Q_top_W,Q_ends_W,Q_fins_W,Q_body_W
+a,a) Baseline,59.45,55.17,55.17,39.32,3.161,39.77,3.671,1.834,0.00,2.318,0.266,0.445,0.471
+b,b) Cu spreader 0.5 mm,52.90,46.17,46.17,38.84,1.705,34.83,3.097,2.837,35.60,2.419,0.253,0.449,0.379
+c,c) Graphite (PGS) 0.1 mm,53.76,47.30,47.30,38.81,1.922,35.53,3.064,2.661,0.68,2.429,0.255,0.450,0.366
+d,d) Thin high-k TIM,58.41,55.04,55.04,39.05,3.160,38.33,3.324,1.851,-0.14,2.394,0.260,0.449,0.397
+e,e) Vented enclosure,55.66,49.78,49.78,38.80,2.803,35.17,2.976,2.344,0.00,2.533,0.244,0.393,0.330
+f,"f) 2x PGS, sealed (recommended)",53.17,46.49,46.49,38.78,1.769,35.09,3.030,2.787,1.36,2.434,0.254,0.450,0.362
